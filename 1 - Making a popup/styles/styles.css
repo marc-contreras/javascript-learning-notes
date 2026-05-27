@@ -14,7 +14,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    display:none
+    display:none /* You need to comment this line to run popup1.js instead popup2.js*/
 }
 
 .popup{
