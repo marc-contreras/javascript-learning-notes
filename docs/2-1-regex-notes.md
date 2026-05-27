@@ -9,4 +9,4 @@ https://regex101.com/
 ## Regular expressions
 
 ### Conjuntos de caracteres
-[gp]ato --> match cuando encuentra gato o pato
+[gp]ato &rarr match cuando encuentra gato o pato
