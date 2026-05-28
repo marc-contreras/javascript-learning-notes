@@ -1,6 +1,8 @@
-body{
+
+
+body {
     font-family: arial;
-    color: #333;
+    color:  #333;
 }
 h1{
     font-weight: normal;
@@ -10,6 +12,9 @@ h1{
 form{
     width: 500px;
     margin: 20px auto;
+    padding: 20px;
+    background: #6b6b6b;
+    border: 1px solid black;
 }
 input{
     display: block;
@@ -19,6 +24,31 @@ input{
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 3px solid #ccc;
-    outline: none !important;
+    border: 3px solid  #ccc;
+    outline: nonoe !important;
+}
+
+/* validation styles */
+
+input.valid{
+    border-color: #36cc36;
+}
+input.invalid{
+    border-color: orange;
+}
+input + p{
+    font-family: arial;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orange;
+    opacity: 0;
+    /*height: 0;*/
+}
+
+input.invalid + p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
 }
