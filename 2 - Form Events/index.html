@@ -18,14 +18,26 @@
             display: block;
             margin: 10px auto;
             padding: 4px;
+            outline: none; /* para que no muestre el color de border por defecto al seleccionar */
         }
+      
+        .success,
+        .success:focus{
+            border: 2px solid limegreen;
+        }
+        .error,
+        .error:focus{
+            border: 2px solid red;
+        }
+
     </style>
 </head>
 <body>
     <form class="signup-form">
         <!-- name & id either will submit will work fine with the js code displaying the console log -->
-        <input type="text" name="username" placeholder="username">
+        <input type="text" id="username" placeholder="username">
         <input type="submit" value="submit">
+        <div class="feedback"></div>
     </form>
 
     <script src="scripts/sandbox.js"></script>
