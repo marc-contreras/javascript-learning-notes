@@ -6,3 +6,4 @@
 - [4 - Array methods](/docs/4_%20Array_methods.md)
 - [5 - Project - To do list](/docs/5_Project%20_To_do_list.md)
 - [6 - Date & time](/docs/6_Date_and_time.md)
+- [8 - Project - WeatherApp](/docs/8_WeatherApp_Documentacion.md)
